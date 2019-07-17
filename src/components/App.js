@@ -1,9 +1,14 @@
 import React from 'react';
+import Bio from './Bio';
+import Work from './Work';
 
 class App extends React.Component {
   render() {
     return (
-      <div>TEST!</div>
+      <main>
+        <Bio />
+        <Work />
+      </main>
     )
   }
 }
