@@ -8,7 +8,6 @@ import Bio from './Bio';
 import Skills from './Skills'
 import ExperienceContainer from './ExperienceContainer';
 
-
 const App = () => (
   <main>
     <Bio />

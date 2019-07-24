@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-size: 3em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.bio-text {
+    margin: 0 0 5px 0;
+}
+
+.profile-icons svg {
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-image img {
+    height: 125px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        letter-spacing: 0.25em;
+        font-size: 2em;
+    }
+
+    .profile-image {
+        justify-content: center;
+    }
+
+    .profile-image img {
+        height: 100px;
+        margin-bottom: 5px;
+    }
+}
